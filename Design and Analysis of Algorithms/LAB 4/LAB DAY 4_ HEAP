@@ -1,0 +1,46 @@
+# Lab Day 4: Heap
+<ol>
+  <li><b>Aim of the program: </b> <br>
+  
+  Define a *struct person*
+  ```sh
+  struct person {
+    int id;
+    char *name;
+    int age;
+    int height;
+    int weight;
+  }
+  ```
+  Write a menu driven program to read the data of 'n' students from a file and store them in a dynamically allocated array of *struct person*. Implement the min-heap or max-heap and its operactions based on the menu options.
+  </li>
+  
+  <i>Sample Input/Ouput:</i> 
+  <ol>
+    <li>Read data</li>
+    <li>Create a min-heap based on the age</li>
+    <li>Create a max-heap based on the weight</li>
+    <li>Display weight of the youngest person</li>
+    <li>Insert a new person into the Min-heap</li>
+    <li>Delete the oldest person</li>
+    <li>Exit</li>
+  </ol>
+
+  <br>
+  
+  Enter option: 1<br>
+  | Id | Name           | Age | Height | Weight(in Pound) |
+  |----|----------------|-----|--------|------------------|
+  | 0  | Adarsh Hota    | 39  | 77     | 231              |
+  | 1  | Levi Maier     | 56  | 77     | 129              |
+  | 2  | Priya Kumari   | 63  | 78     | 240              |
+  | 3  | Dorothy Helton | 47  | 72     | 229             |
+  | 4  | Florence Smith | 24  | 75     | 171             |
+  | 5  | Erica Anyan    | 38  | 73     | 102             |
+  | 6  | Norman Webster | 23  | 75     | 145             |
+
+  Enter option: 4<br>
+  Weight of the youngest student: 65.67kg
+
+  <li><b>Aim of the program: </b> Write a menu driven program to sort a list of elements in ascending order using Quick Sort technique. Each choice for the input data has its own disc file. A separate output file can be used for sorted elements. After sorting display the content of the output file along with number of comparisons. Based on the partitioning position for each recursive call, conclude the input scenario is either best-case partitioning or worst-case partitioning.</li>
+</ol>

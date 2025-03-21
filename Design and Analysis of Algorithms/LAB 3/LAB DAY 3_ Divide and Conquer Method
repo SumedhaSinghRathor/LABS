@@ -1,0 +1,60 @@
+# Lab Day 3: Divide and Conquer Method
+<ol>
+  <li><b>Aim of the program: </b> Write a menu driven program to sort list of array elements using Merge Sort technique and calculate the execution time only to sort the elements. Count the number of comparisons.</li>
+  
+  <i>Note:</i> 
+  <ul>
+    <li>To calculate execution time, assume that single program is under execution in the CPU.</li>
+    <li>Number of elements in each input file should vary from 300 to 500 entries</li>
+    <li>For ascending order: Read data from a file "inAsc.dat" having content 10 20 30 40 50 ....; Store the result in "outMergeAsc.dat"</li>
+    <li>For descending order: Read data from a file "inDesc.dat" having content 90 80 70 60 50 ....; Store the result in "outMergeDesc.dat"</li>
+    <li>For random data: Read data from a file "inRand.dat" having content 55 66 33 11 44 ....; Store the result in "outMergeRand.dat"</li>
+  </ul>
+
+  <br>
+  <i>Sample Input from file:</i><br>
+  MAIN MENU (MERGE SORT)
+  <ol>
+    <li>Ascending Data</li>
+    <li>Descending Data</li>
+    <li>Random Data</li>
+    <li>ERROR (Exit)</li>
+  </ol>
+
+  <br>
+  <i>Output: </i><br>
+  Enter Option: 1<br>
+  Before sorting: Content of the input file<br>
+  After Sorting: Content of the output file<br>
+  Number of Comparisons: Actual<br>
+  Execution Time: lapse time in nanosecond
+
+  <li><b>Aim of the program: </b> Write a menu driven program to sort a list of elements in ascending order using Quick Sort technique. Each choice for the input data has its own disc file. A separate output file can be used for sorted elements. After sorting display the content of the output file along with number of comparisons. Based on the partitioning position for each recursive call, conclude the input scenario is either best-case partitioning or worst-case partitioning.</li>
+  
+  <i>Note:</i> 
+  <ul>
+    <li>The worst-case behavior for quick sort occurs when the partitioning routine produces one sub problem with n-1 elements and one with 0 elements. The best-case behaviour occurred in most even possible split, PARTITION produces two sub problems, each of size no more than n/2.</li>
+    <li>Number of elements in each input file should vary from 300 to 500 entries</li>
+    <li>For ascending order: Read data from a file "inAsc.dat" having content 10 20 30 40 50 ....; Store the result in "outQuickAsc.dat"</li>
+    <li>For descending order: Read data from a file "inDesc.dat" having content 90 80 70 60 50 ....; Store the result in "outQuickDesc.dat"</li>
+    <li>For random data: Read data from a file "inRand.dat" having content 55 66 33 11 44 ....; Store the result in "outQuickRand.dat"</li>
+  </ul>
+
+  <br>
+  <i>Sample Input from file:</i><br>
+  MAIN MENU (MERGE SORT)
+  <ol>
+    <li>Ascending Data</li>
+    <li>Descending Data</li>
+    <li>Random Data</li>
+    <li>ERROR (Exit)</li>
+  </ol>
+
+  <br>
+  <i>Output: </i><br>
+  Enter Option: 1<br>
+  Before sorting: Content of the input file<br>
+  After Sorting: Content of the output file<br>
+  Number of Comparisons: Actual<br>
+  Scenario: Best or Worst Case
+</ol>
